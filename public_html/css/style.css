@@ -1,0 +1,70 @@
+#hed {
+    background: #85D4B7;
+    padding: 26px;
+    
+}
+
+#hed nav{
+    float: right;
+    padding: 20px;
+    background:#85D4B7;
+}
+
+#hed li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+#hed li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hed button {
+  background: #6DCCAA;
+  padding: 10px;
+  color: white;
+}
+
+
+
+#bod {
+  background: white;  
+    
+}
+
+#img {
+ max-height: 600px;   
+}
+
+#red {
+    padding: 10px;
+   
+}
+
+#red1 {
+    align-content:center;
+    background: #6DCCAA;
+}
+
+#tit h2{
+    text-align: right;
+    background: white;
+    color: black;
+    padding: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+#tit h5 {
+    color: gray;
+    background: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+dgjuhawregóihqwegóiwheg0´h LO LOGRE
