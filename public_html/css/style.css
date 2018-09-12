@@ -1,7 +1,7 @@
 #hed {
     background: #85D4B7;
     padding: 26px;
-    
+
 }
 
 #hed nav{
@@ -25,25 +25,25 @@
 }
 
 #hed button {
-  background: #6DCCAA;
-  padding: 10px;
-  color: white;
+    background: #6DCCAA;
+    padding: 10px;
+    color: white;
 }
 
 
 
 #bod {
-  background: white;  
-    
+    background: white;  
+
 }
 
 #img {
- max-height: 600px;   
+    max-height: 600px;   
 }
 
 #red {
     padding: 10px;
-   
+
 }
 
 #red1 {
@@ -68,6 +68,6 @@
 }
 
 #carouselExampleControls{
-    margin: auto;
-    
+    width: 72%;
+    margin: auto;  
 }
