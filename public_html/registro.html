@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(function(){
-        $("form#formato-live input").rut({formatOn: 'keyup'});
-        $("form#validacion-live input").rut({formatOn: 'keyup', validateOn: 'keyup'}).on('rutInvalido',
-        function(){ $(this).parents(".control-group").addClass("error");}).on('rutValido',
-        function(){ $(this).parents(".control-group").removeClass("error");});
-      });
-    </script>
-<script src="js/validarRut.js" type="text/javascript"></script>
-  </head>
-  <body>
-      <form name="formulario" id="validacion-live" class="form-horizontal" action="#" method="POST">
-              
-            <div class="control-group">
-              <label class="control-label" for="inputEmail">RUT</label>
-              <div class="controls">
-                <input type="text" placeholder="14.569.484-1" />
-              </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $("form#formato-live input").rut({formatOn: 'keyup'});
+                $("form#validacion-live input").rut({formatOn: 'keyup', validateOn: 'keyup'}).on('rutInvalido',
+                        function () {
+                            $(this).parents(".control-group").addClass("error");
+                        }).on('rutValido',
+                        function () {
+                            $(this).parents(".control-group").removeClass("error");
+                        });
+            });
+        </script>
+        <script src="js/validarRut.js" type="text/javascript"></script>
+         <title>Mis Perris</title>
+    </head>
+    <body>
+        <form name="formulario" id="validacion-live" class="form-horizontal" action="#" method="POST">
+            
+            <div class="form-group">
+                <label for="id_txtEmail">Email:</label><br>
+                <input type="email" name="txtEmail" value=""
+                       id="id_txtEmail"
+                       placeholder="Ingrese Email"
+                       required=""/>
             </div>
-              
-          </form>
-    
-  </body> 
+
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">RUT</label>
+                <div class="controls">
+                    <input type="text" placeholder="14.569.484-1" />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="id_txtNombre">Nombre:</label><br>
+                <input type="text" name="txtNombre" value=""
+                       id="id_txtNombre"
+                       placeholder="Ingrese Nombre"
+                       required=""/>
+            </div>
+            
+            <div class="form-group">
+                <label for="id_txtMovil">Movil:</label><br>
+                <input type="tel" name="txtMovil" value=""
+                       placeholder="Ingrese fono"
+                       id="id_txtMovil"
+                       required=""/>
+            </div>
+            <div class="form-group">
+                <label for="id_cmbSede">Sede:</label><br>
+                <select name="cmbSede" size="1" id="id_cmbSede">
+                    <option>Alameda</option>
+                    <option>Alonso Ovalle</option>
+                    <option>Melipilla</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label >Modalidad: </label>
+                <input type="radio" name="btnModalidad" value="" checked="checked" />OnLine
+                <input type="radio" name="btnModalidad" value="ON" checked="checked" />Presencial
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="chkCondiciones" value="ON" />Acepto Condiciones
+            </div>
+            <input type="submit" value="Enviar" name="btnEnviar" />
+
+
+        </form>
+        <script src="js/combo.js" type="text/javascript"></script>
+        <script src="js/validarRut.js" type="text/javascript"></script>
+    </body> 
 </html>
 
-<!--consultar a arturo por el validador de rut-->
