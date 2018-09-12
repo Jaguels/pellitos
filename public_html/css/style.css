@@ -89,7 +89,7 @@
 
 #tit2 hr {
     size: 5px;
-    width: 50px;
+    width: 100%;
 }
 
 #cam {
@@ -99,4 +99,19 @@
     border: solid 2px;
 }
 
+.carousel-caption {
+   position: absolute;
+   top: 300px;
+}
+
+.carousel-caption p {
+   color: white;
+   font-weight: bold;
+   text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
+
+}
 
