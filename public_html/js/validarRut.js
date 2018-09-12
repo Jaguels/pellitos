@@ -6,7 +6,7 @@
 		useThousandsSeparator: true,
 		minimumLength: 2
 	};
-
+        
 	//private methods
 	function clearFormat(value) {
 		return value.replace(/[\.\-]/g, "");
