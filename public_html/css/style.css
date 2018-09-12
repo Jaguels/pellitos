@@ -29,7 +29,11 @@
     padding: 10px;
     color: white;
 }
-
+#hed a{
+    background: #6DCCAA;
+    padding: 10px;
+    color: white;
+}
 
 
 #bod {
@@ -38,7 +42,7 @@
 }
 
 #img {
-    max-height: 600px;   
+    max-height: 400px;   
 }
 
 #red {
@@ -68,6 +72,6 @@
 }
 
 #carouselExampleControls{
-    width: 72%;
+    width: 71.3%;
     margin: auto;  
 }
