@@ -1,7 +1,7 @@
 #hed {
-    background: #85D4B7;
+    background-color: #85D4B7;
     padding: 26px;
-
+   
 }
 
 #hed nav{
@@ -24,11 +24,7 @@
     text-align: center;
 }
 
-#hed button {
-    background: #6DCCAA;
-    padding: 10px;
-    color: white;
-}
+
 #hed a{
     background: #6DCCAA;
     padding: 10px;
@@ -36,10 +32,7 @@
 }
 
 
-#bod {
-    background: white;  
 
-}
 
 #img {
     max-height: 400px;   
@@ -55,8 +48,13 @@
     background: #6DCCAA;
 }
 
+#tit {
+    padding-right: 30px;
+   
+    
+}
 #tit h2{
-    text-align: right;
+   
     background: white;
     color: black;
     padding: 0px;
@@ -67,11 +65,43 @@
 #tit h5 {
     color: gray;
     background: white;
-    text-align: right;
+    
     padding-right: 10px;
 }
 
 #carouselExampleControls{
     width: 71.3%;
-    margin: auto;  
+    margin: auto; 
+    
 }
+
+#tit hr {
+    size: 5px;
+    width: 50px;
+}
+
+#tit2 {
+    padding: 30px;
+}
+
+#tit2 h5 {
+    color: gray;
+    background: white;
+    
+    padding-right: 10px;
+}
+
+#tit2 hr {
+    size: 5px;
+    width: 50px;
+}
+
+#cam {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: solid 2px;
+    
+}
+
+
