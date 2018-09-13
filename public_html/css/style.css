@@ -1,7 +1,7 @@
 #hed {
     background-color: #85D4B7;
     padding: 26px;
-   
+
 }
 
 #hed nav{
@@ -10,7 +10,7 @@
 
 #hed li {
     list-style: none;
-    
+
     padding: 10px;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@
 }
 
 #tit h2{
-   
+
     background: white;
     color: black;
     padding: 0px;
@@ -69,7 +69,7 @@
 #carouselExampleControls{
     width: 100%;
     margin: auto; 
-    
+
 }
 
 #tit hr {
@@ -100,18 +100,83 @@
 }
 
 .carousel-caption {
-   position: absolute;
-   top: 300px;
+    position: absolute;
+    top: 300px;
 }
 
 .carousel-caption p {
-   color: white;
-   font-weight: bold;
-   text-shadow:
-  -1px -1px 0 black,
-  1px -1px 0 black,
-  -1px 1px 0 black,
-  1px 1px 0 black;
+    color: white;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 110px!important;
+    bottom: 355px!important;
+}
+
+/*  galeria*/
+.galeria-bg{
+    background-color: #85D4B7;
+    /*    margin: 50px 250px 50px 250px ;*/
 
 }
 
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.green{
+    background-color:#6fb936;
+}
+.thumb{
+    margin-bottom: 20px;
+}
+
+.page-top{
+    margin-top:150px;
+}
+
+
+img.zoom {
+    width: 250px;
+    height: 200px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.modal-header {
+
+    border-bottom: none;
+}
+.modal-title {
+    color:#000;
+}
+.modal-footer{
+    display:none;  
+}
+
+/*fin galeria*/
+
+@media screen and (max-width: 500px){
+    .navegador{
+        width: 100%;
+    }
+}
