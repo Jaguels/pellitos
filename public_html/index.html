@@ -19,109 +19,110 @@
         <link rel="shortcut icon" href="#" />
     </head>
     <body id="bod">
-        <nav id="hed" class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div>
-                    <img src="imagenes/img/logo.png" alt=""/>
-                </div>
-                <ul class="nav navbar-nav-right">
+        <header class="container" id="top">  
+            <div>
+                <img src="imagenes/img/logo.png" alt=""/>
+            </div>
+            <div class="menu-mobile">
+                <a href="javascript:void(0)"><span class="fa fa-bars" aria-hidden="true"></span></a>
+            </div>
+            <nav class="main-menu displayed" style="display: none;">
+                <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">¿Quienes somos?</a></li>
                     <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Contáctos</a></li>
                     <li><a href="registro.html">Registro</a></li>
                 </ul>
-            </div>
-        </nav>
-        <!--      carrusel -->
+            </nav>
+            <!--      carrusel -->
+            <div class="container">
+                <div class="carousel" id="slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slide" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide" data-slide-to="1"></li>
+                        <li data-target="#slide" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/adoptados/Apolo.jpg" class="img-fluid">
+                            <div class="carousel-caption">
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <h3>Apolo</h3>
+                                <p>Estamos muy felices de que apolo sea parte de nuestra familia.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/adoptados/Duque.jpg" class="img-fluid">
+                            <div class="carousel-caption">
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <h3>Duque</h3>
+                                <p>Desde que llego a nuestras vidas, se a convertido en el mejor amigo de la familia.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/adoptados/Tom.jpg" class="img-fluid">
+                            <div class="carousel-caption">
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <h3>Tom</h3>
+                                <p>Es el perro mas fiel y amistoso que hemos podido adoptar.</p>
+                            </div>
+                        </div>
 
-        <div class="container">
-            <div class="carousel" id="slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#slide" data-slide-to="0" class="active"></li>
-                    <li data-target="#slide" data-slide-to="1"></li>
-                    <li data-target="#slide" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagenes/adoptados/Apolo.jpg" class="img-fluid">
-                        <div class="carousel-caption">
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            <h3>Apolo</h3>
-                            <p>Estamos muy felices de que apolo sea parte de nuestra familia.</p>
-                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="imagenes/adoptados/Duque.jpg" class="img-fluid">
-                        <div class="carousel-caption">
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            <h3>Duque</h3>
-                            <p>Desde que llego a nuestras vidas, se a convertido en el mejor amigo de la familia.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagenes/adoptados/Tom.jpg" class="img-fluid">
-                        <div class="carousel-caption">
-                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                            <h3>Tom</h3>
-                            <p>Es el perro mas fiel y amistoso que hemos podido adoptar.</p>
-                        </div>
-                    </div>
-                    
+                    <a href="#slide" class="carousel-control-prev" data-slide="next">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slide" class="carousel-control-next" data-slide="prev">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
-                <a href="#slide" class="carousel-control-prev" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a href="#slide" class="carousel-control-next" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
             </div>
-        </div>
-        <!--      fin carrusel-->
-        
-        <!--    galeria-->
-        <div class="galeria-bg">
-            <div class="container page-top">
-                <br><br>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Bigotes.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Bigotes.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Chocolate.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Chocolate_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Luna.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Luna_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Maya.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Maya_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Oso.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Oso_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Pexel.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Pexel_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                        <a href="imagenes/rescatados/Wifi.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                            <img  src="imagenes/rescatados/Wifi_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
-                        </a>
+            <!--      fin carrusel-->
+
+            <!--    galeria-->
+            <div class="galeria-bg">
+                <div class="container page-top">
+                    <br><br>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Bigotes.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Bigotes.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Chocolate.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Chocolate_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Luna.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Luna_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Maya.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Maya_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Oso.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Oso_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Pexel.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Pexel_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a href="imagenes/rescatados/Wifi.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                <img  src="imagenes/rescatados/Wifi_tn.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="zoom img-fluid "  alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--    fin galeria-->
+            <!--    fin galeria-->
     </body>
 </html>
