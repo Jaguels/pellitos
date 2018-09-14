@@ -1,21 +1,23 @@
 /*navegador*/
-@import url('https://fonts.googleapis.com/css?family=Saira+Condensed:400,700');
-@import url('font-awesome.css');
-
-
 a {
     transition: all 1s ease; 
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    background: #fff
-}
 
+
+.container1 {
+    max-width: 100%!important;
+    margin: 0 auto;
+    background-color: #85D4B7;
+    height: 75px;
+}
+.img{
+    float:left;
+}
 .main-menu {
     width: 70%;
     float: right;
+    margin-top: 25px;
 }
 
 .main-menu ul {
@@ -68,8 +70,9 @@ a {
 
 .main-menu {
     width: 100%;
-    float: none;
+    float: left;
     display: none;
+    margin-top: -22px;
 }
 
 .main-menu ul {
@@ -88,7 +91,7 @@ a {
     text-decoration: none;
     padding: 10px 10px;
     display: block;
-    background-color: orange;
+    background-color: #6DCCAA;
     text-align: center;
     border-bottom: 1px solid white;
 }
@@ -248,17 +251,88 @@ h3{
         1px 1px 0 black!important;
 }
 /*carrucel*/
-.img-fluid{
-    width: 1150px;
-    height: 200px;
-    border-radius: 5px;
-    padding: 8px;
-    margin-top: 20px;
+.wrap {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #120103;
+  color: #fff;
+  text-align: center;
 }
-.container{
-    background-color: #85D4B7;
-    width: 50px;
-    padding-left: 50px;
-    margin: auto;
-}      
+
+.botones {
+  background: #85D4B7;
+  /* box-shadow: 0 0.5em 1em #111; */
+  position: absolute;
+  top: 376px;
+  left: 0px;
+  z-index: 900;
+  width: 100%;
+  height: 40px;
+}
+
+header label {
+  color: #788188;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 1em;
+  height: 0;
+  margin-top: 0px;
+  padding-top:  0px;
+}
+
+header label:hover {
+  background: #2e353b;
+}
+
+.slide {
+  height: 621px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-color: #120103;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: left 0s 0.75s;
+}
+
+.slide-one {
+  background-image: url(../imagenes/adoptados/Apolo.jpg);
+}
+
+.slide-two {
+  background-image: url(../imagenes/adoptados/Duque.jpg);
+}
+
+.slide-three {
+  background-image: url(../imagenes/adoptados/Tom.jpg);
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+
+.slide h1 {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s 0.5s, opacity 0.5s;
+}
+
+[id^="slide"]:checked + .slide h1 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s 0.5s;
+}
 /*fin carrucel*/
+
+.red1{
+
+}

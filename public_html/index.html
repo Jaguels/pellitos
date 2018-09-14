@@ -19,8 +19,8 @@
         <link rel="shortcut icon" href="#" />
     </head>
     <body id="bod">
-        <header class="container" id="top">  
-            <div>
+        <header class="container1" id="top">  
+            <div class="img">
                 <img src="imagenes/img/logo.png" alt=""/>
             </div>
             <div class="menu-mobile">
@@ -35,52 +35,31 @@
                     <li><a href="registro.html">Registro</a></li>
                 </ul>
             </nav>
+        </header>    
             <!--      carrusel -->
-            <div class="container">
-                <div class="carousel" id="slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slide" data-slide-to="0" class="active"></li>
-                        <li data-target="#slide" data-slide-to="1"></li>
-                        <li data-target="#slide" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imagenes/adoptados/Apolo.jpg" class="img-fluid">
-                            <div class="carousel-caption">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                <h3>Apolo</h3>
-                                <p>Estamos muy felices de que apolo sea parte de nuestra familia.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagenes/adoptados/Duque.jpg" class="img-fluid">
-                            <div class="carousel-caption">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                <h3>Duque</h3>
-                                <p>Desde que llego a nuestras vidas, se a convertido en el mejor amigo de la familia.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagenes/adoptados/Tom.jpg" class="img-fluid">
-                            <div class="carousel-caption">
-                                <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                <h3>Tom</h3>
-                                <p>Es el perro mas fiel y amistoso que hemos podido adoptar.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <a href="#slide" class="carousel-control-prev" data-slide="next">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a href="#slide" class="carousel-control-next" data-slide="prev">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </div>
-            <!--      fin carrusel-->
-                <div id="red1" class="container-fluid">
-                    <div id="redS"><img src="imagenes/img/WhatsApp Image 2018-09-11 at 14.52.07.jpeg" alt=""/></div>
+            <div class="wrap">
+                <header class="botones">
+    <label for="slide-1-trigger"><span style="color:white">O</span></label>
+    <label for="slide-2-trigger"><span style="color:white">O</span></label>
+    <label for="slide-3-trigger"><span style="color:white">O</span></label>
+  </header>
+  <input id="slide-1-trigger" type="radio" name="slides" checked>
+  <section class="slide slide-one">
+    <h1>Con apolo estamos muy feliz en casa ahora</h1>
+  </section>
+  <input id="slide-2-trigger" type="radio" name="slides">
+  <section class="slide slide-two">
+    <h1>Duque a sido una gran compania desde que lo tengo</h1>
+  </section>
+  <input id="slide-3-trigger" type="radio" name="slides">
+  <section class="slide slide-three">
+    <h1>Tom es un gran compañero en el da a día</h1>
+  </section>
+</div>
+           
+<!--                  fin carrusel-->
+                <div  class="red1">
+                    <img src="imagenes/img/redes.png" alt=""/>
                 </div>
                 <div id="tit" align="right"><h2>RESCATE</h2>
                     <h5>ETAPA UNO</h5>
@@ -99,7 +78,7 @@
                 </div>
                 <div class="pl-3">
                     <strong><a id="cam" href="#">CAMPAÑAS</a></strong>
-                </div>-->
+                </div>
             <!--    galeria-->
             <div class="galeria-bg">
                 <div class="container page-top">
