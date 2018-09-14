@@ -333,6 +333,19 @@ header label:hover {
 }
 /*fin carrucel*/
 
-.red1{
+/*.tit{
+    text-align: right!important;
+width: 50%!important;
+float: left!important;
+}
+.tit2{
+    text-align: left!important;
+width: 50%!important;
+float: left!important;
+}*/
 
+.columna tit{
+    width: 50%!important;
+    float: left!important;
+/*float: left!important;*/
 }
