@@ -333,16 +333,25 @@ header label:hover {
 }
 /*fin carrucel*/
 
-/*.tit{
-    text-align: right!important;
-width: 50%!important;
-float: left!important;
+#tit{
+    
+    text-align: right;
+
+
 }
-.tit2{
-    text-align: left!important;
-width: 50%!important;
-float: left!important;
-}*/
+#tit2{
+    text-align: left;
+
+
+}
+
+#cam {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 9px;
+    
+}
 
 .columna tit{
     width: 50%!important;
