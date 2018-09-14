@@ -1,0 +1,21 @@
+#form {
+  margin: 0 auto;
+   text-align: left;
+   border-radius: 10px;
+   border: 1px solid #666666;
+   width: 500px;
+   padding: 20px;
+    background: #6DCCAA;
+    margin-top: 20px;
+}
+
+#bot {
+  padding-top: 20px;
+}
+
+#hed {
+    background: #85D4B7;
+    padding: 26px;
+    text-align: center;
+    color: white;
+}
